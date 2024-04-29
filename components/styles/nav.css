@@ -6,7 +6,7 @@
 
 .my-logo h2 {
     font-size: 26px;
-    color: #fff;
+    color: #d3d0d0;
     font-weight: 300;
 }
 
@@ -18,7 +18,7 @@
 
 .my-links ul a {
     text-decoration: none;
-    color: var(--white, #FFF);
+    color: var(--white, #d3d0d0);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;

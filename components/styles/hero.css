@@ -1,0 +1,43 @@
+.my-image{
+    border: 2px solid #fff;
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 14px;
+   background-color: #d3d0d0;
+}
+
+.my-image img{
+    position: absolute;
+    bottom: 0px;
+    left: -190px;
+    
+
+}
+
+.my-image:hover{
+   filter: brightness(0.9);
+   transition: all smooth;
+}
+
+.hero{
+    border: 2px solid rgb(71, 69, 69);
+    padding: 40px;
+    display: flex;
+    width:80%;
+    margin: 120px auto;
+    justify-content: start;
+    align-items: center;
+    border-radius: 14px;
+    gap: 100px;
+}
+
+
+.my-text{
+    flex-basis: 50%;
+    color: var(--text-color);
+    font-weight: 200;
+}
+
