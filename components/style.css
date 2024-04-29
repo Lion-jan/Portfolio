@@ -1,0 +1,16 @@
+@import './styles/nav.css';
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Fira Code',sans-serif;
+
+}
+
+body{
+    background: var(--background, #282C33);
+}
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
